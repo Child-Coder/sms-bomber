@@ -9,11 +9,7 @@
     <meta name="author" content="Child Coder BD">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <!-- GitHub Pages specific meta tags -->
-    <meta property="og:title" content="Child Coder BD - SMS Bomber">
-    <meta property="og:description" content="Advanced SMS Testing Tool for educational purposes">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://childcoderbd.github.io/sms-bomber">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
@@ -27,7 +23,7 @@
                 <a href="#home" class="nav-link active">Home</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#features" class="nav-link">Features</a>
-                <a href="#github" class="nav-link">GitHub</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </nav>
         </div>
     </header>
@@ -36,6 +32,9 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge">🚀 Powered by Vercel</span>
+                </div>
                 <h1>Advanced SMS Testing Tool</h1>
                 <p>Professional SMS testing platform for educational purposes only</p>
                 <div class="github-badge">
@@ -185,7 +184,7 @@
                 <div id="logsContainer" class="logs-container">
                     <div class="log-entry info">
                         <span class="timestamp" id="currentTime"></span>
-                        <span class="message">System ready. Enter target details to start.</span>
+                        <span class="message">System ready. Enter target details to start simulation.</span>
                     </div>
                 </div>
             </div>
@@ -226,8 +225,8 @@
                             <span class="tech-item">HTML5</span>
                             <span class="tech-item">CSS3</span>
                             <span class="tech-item">JavaScript</span>
-                            <span class="tech-item">Python Flask</span>
-                            <span class="tech-item">REST APIs</span>
+                            <span class="tech-item">Vercel Hosting</span>
+                            <span class="tech-item">GitHub Pages</span>
                         </div>
                     </div>
                 </div>
@@ -272,64 +271,26 @@
         </div>
     </section>
 
-    <!-- GitHub Section -->
-    <section id="github" class="github-section">
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
         <div class="container">
-            <h2>Open Source Project</h2>
-            <div class="github-content">
-                <div class="github-info">
-                    <div class="github-stats">
-                        <div class="github-stat">
-                            <i class="fab fa-github"></i>
-                            <div>
-                                <h3>Open Source</h3>
-                                <p>Public repository available on GitHub</p>
-                            </div>
-                        </div>
-                        <div class="github-stat">
-                            <i class="fas fa-code"></i>
-                            <div>
-                                <h3>MIT License</h3>
-                                <p>Free to use and modify</p>
-                            </div>
-                        </div>
-                        <div class="github-stat">
-                            <i class="fas fa-bug"></i>
-                            <div>
-                                <h3>Issue Tracking</h3>
-                                <p>Report bugs and request features</p>
-                            </div>
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>View source code and contribute</p>
+                            <a href="https://github.com/ChildCoderBD" target="_blank">github.com/ChildCoderBD</a>
                         </div>
                     </div>
-                    
-                    <div class="github-actions">
-                        <a href="https://github.com/ChildCoderBD/sms-bomber" target="_blank" class="btn btn-github">
-                            <i class="fab fa-github"></i>
-                            View Repository
-                        </a>
-                        <a href="https://github.com/ChildCoderBD/sms-bomber/issues" target="_blank" class="btn btn-outline">
-                            <i class="fas fa-exclamation-circle"></i>
-                            Report Issue
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="github-preview">
-                    <div class="code-preview">
-                        <div class="code-header">
-                            <span>Quick Setup</span>
-                        </div>
-                        <div class="code-content">
-                            <code>
-# Clone repository<br>
-git clone https://github.com/ChildCoderBD/sms-bomber.git<br>
-<br>
-# Install dependencies<br>
-pip install -r requirements.txt<br>
-<br>
-# Run the application<br>
-python app.py
-                            </code>
+                    <div class="contact-item">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <h3>Open Source</h3>
+                            <p>MIT Licensed - Free to use</p>
+                            <span>Modify and distribute freely</span>
                         </div>
                     </div>
                 </div>
@@ -363,7 +324,7 @@ python app.py
                 <div class="footer-section">
                     <h4>Version</h4>
                     <p id="versionInfo">v2.1</p>
-                    <p>Last updated: 2024</p>
+                    <p>Deployed on Vercel</p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -374,4 +335,4 @@ python app.py
 
     <script src="script.js"></script>
 </body>
-                      </html>
+                        </html>
